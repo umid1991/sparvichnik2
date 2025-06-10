@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ИКТ Справочник</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #f8f9fa;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .menu-btn {
+      margin: 6px 4px;
+      flex-grow: 1;
+    }
+
+    #content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: #0077cc;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>📘 Электронный справочник по ИКТ</h2>
+  </header>
+
+  <div class="container-fluid p-3">
+    <div class="input-group mb-3">
+      <input type="text" id="searchInput" class="form-control" placeholder="Введите ключевое слово..." />
+      <button class="btn btn-primary" onclick="searchTerm()">🔍 Поиск</button>
+    </div>
+
+    <div class="d-flex flex-wrap justify-content-center">
+      <button class="btn btn-outline-primary menu-btn" onclick="openSection('term')">📖 Термины</button>
+      <button class="btn btn-outline-primary menu-btn" onclick="openSection('law')">⚖️ Законодательство</button>
+      <button class="btn btn-outline-primary menu-btn" onclick="openSection('example')">🧾 Примеры</button>
+      <button class="btn btn-outline-primary menu-btn" onclick="openSection('test')">📝 Тесты</button>
+    </div>
+
+    <div id="content" class="text-center mt-4">
+      <p>Выберите раздел или введите ключевое слово для поиска.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 — Справочник по ИКТ и экономике</p>
+  </footer>
+
+  <script>
+    function searchTerm() {
+      const input = document.getElementById("searchInput").value.toLowerCase();
+      const content = document.getElementById("content");
+
+      if (input === "икт") {
+        content.innerHTML = "<h4>ИКТ</h4><p>Информационно-коммуникационные технологии — технологии сбора, обработки и передачи информации.</p>";
+      } else if (input === "crm") {
+        content.innerHTML = "<h4>CRM</h4><p>CRM — система управления взаимоотношениями с клиентами.</p>";
+      } else {
+        content.innerHTML = "<p><strong>Ничего не найдено.</strong> Попробуйте другое слово.</p>";
+      }
+    }
+
+    function openSection(section) {
+      const content = document.getElementById("content");
+
+      if (section === 'example') {
+        fetch('2.json')
+          .then(response => response.json())
+          .then(data => {
+            let html = '<h4>🧾 Примеры цифровизации</h4><div class="row">';
+            data.forEach(item => {
+              html += `
+                <div class="col-md-4 mb-4">
+                  <div class="card h-100 shadow-sm">
+                    <img src="${item.image}" class="card-img-top" alt="${item.title}" style="max-height:180px; object-fit:cover;">
+                    <div class="card-body">
+                      <h5 class="card-title">${item.title}</h5>
+                      <p class="card-subtitle text-muted">${item.description}</p>
+                      <ul class="mt-2">${item.text.map(t => `<li>${t}</li>`).join('')}</ul>
+                    </div>
+                  </div>
+                </div>
+              `;
+            });
+            html += '</div>';
+            content.innerHTML = html;
+          })
+          .catch(error => {
+            content.innerHTML = `<p>Ошибка загрузки примеров. Попробуйте позже.</p>`;
+            console.error('Ошибка:', error);
+          });
+      } else if (section === 'term') {
+        content.innerHTML = `<h4>📖 Термины</h4><p>Раздел в разработке.</p>`;
+      } else if (section === 'law') {
+        content.innerHTML = `<h4>⚖️ Законодательство</h4><p>Основные законы и нормативные акты в сфере ИКТ.</p>`;
+      } else if (section === 'test') {
+        content.innerHTML = `<h4>📝 Тест</h4><p>Что такое ИКТ?<br>A) Интернет-консультационные технологии<br>B) Информационно-коммуникационные технологии ✅</p>`;
+      } else {
+        content.innerHTML = "<p>Раздел не найден.</p>";
+      }
+    }
+  </script>
+
+</body>
+</html>

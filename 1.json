@@ -1,0 +1,71 @@
+
+
+[
+  {
+    "title": "Электронная коммерция",
+    "text": ["Amazon", "Alibaba", "Ozon", "Wildberries", "eBay", "Mercado Libre", "JD.com", "Shopify", "Etsy", "Rozetka"],
+    "image": "https://example.com/images/ecommerce.jpg"
+  },
+  {
+    "title": "Онлайн-банкинг и финтех",
+    "text": ["Uzum Bank", "Apelsin", "Click", "Payme", "Tinkoff", "Sberbank Online", "Revolut", "PayPal", "Wise (TransferWise)", "Alipay"],
+    "image": "https://example.com/images/fintech.jpg"
+  },
+  {
+    "title": "ERP и системы автоматизации бизнеса",
+    "text": ["1C:Предприятие", "SAP", "Oracle ERP", "Microsoft Dynamics", "Odoo", "Bitrix24", "Zoho ERP", "NetSuite", "YCLIENTS", "Мегаплан"],
+    "image": "https://example.com/images/erp.jpg"
+  },
+  {
+    "title": "Электронное правительство и госуслуги",
+    "text": ["my.gov.uz", "Госуслуги (Россия)", "E-gov (Казахстан)", "Diia (Украина)", "Estonia’s e-Residency", "Singapore’s SingPass", "USA.gov", "Документооборот (DocFlow)", "Электронная налоговая", "Электронные аукционы"],
+    "image": "https://example.com/images/egov.jpg"
+  },
+  {
+    "title": "Онлайн-реклама и маркетинг",
+    "text": ["Google Ads", "Facebook Ads", "Instagram Ads", "TikTok Ads", "Яндекс.Директ", "LinkedIn Ads", "Twitter (X) Ads", "Programmatic-реклама", "SEO-оптимизация", "Email-маркетинг"],
+    "image": "https://example.com/images/marketing.jpg"
+  },
+  {
+    "title": "Логистика и управление цепями поставок",
+    "text": ["AliExpress Logistics", "DHL Track & Trace", "FedEx Supply Chain", "Uber Freight", "Flexport", "ShipBob", "1C:Логистика", "SAP SCM", "КИС «Транспорт»", "Яндекс.Доставка"],
+    "image": "https://example.com/images/logistics.jpg"
+  },
+  {
+    "title": "Облачные вычисления и SaaS",
+    "text": ["Google Cloud", "Amazon Web Services (AWS)", "Microsoft Azure", "Yandex Cloud", "IBM Cloud", "Salesforce", "Dropbox Business", "Slack", "Zoom", "Notion"],
+    "image": "https://example.com/images/cloud.jpg"
+  },
+  {
+    "title": "Криптовалюты и блокчейн",
+    "text": ["Bitcoin", "Ethereum", "Binance", "Coinbase", "Solana", "NFT-маркетплейсы (OpenSea)", "Ripple (XRP)", "Blockchain-платежи (Stellar)", "Смарт-контракты", "Децентрализованные финансы (DeFi)"],
+    "image": "https://example.com/images/crypto.jpg"
+  },
+  {
+    "title": "Удалённая работа и фриланс",
+    "text": ["Upwork", "Freelancehunt", "Fiverr", "Toptal", "WeWork", "Zoom", "Trello", "Asana", "Jira", "Google Workspace"],
+    "image": "https://example.com/images/freelance.jpg"
+  },
+  {
+    "title": "Искусственный интеллект и Big Data",
+    "text": ["ChatGPT", "IBM Watson", "Google AI", "Яндекс.Дзен", "Нейросети для аналитики", "Прогнозная аналитика", "Распознавание лиц", "Чат-боты", "Голосовые помощники", "Автоматизированные торговые системы"],
+    "image": "https://example.com/images/ai_bigdata.jpg"
+  },
+  {
+    "title": "Онлайн-образование и EdTech",
+    "text": ["Coursera", "Udemy", "Stepik", "Khan Academy", "Duolingo", "Skillbox", "GeekBrains", "Udacity", "edX", "OpenAI Learn"],
+    "image": "https://example.com/images/edtech.jpg"
+  },
+  {
+    "title": "Мессенджеры и коммуникация",
+    "text": ["WhatsApp", "Telegram", "Viber", "Messenger", "WeChat", "Discord", "Skype", "Zoom", "Slack", "Microsoft Teams"],
+    "image": "https://example.com/images/messenger.jpg"
+  },
+  {
+    "title": "Онлайн-игры и гейминг",
+    "text": ["Steam", "Epic Games", "PlayStation Network", "Xbox Live", "Twitch", "Discord", "Roblox", "Fortnite", "PUBG", "Minecraft"],
+    "image": "https://example.com/images/gaming.jpg"
+  }
+]
+
+

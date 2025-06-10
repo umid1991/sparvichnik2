@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Электронная коммерция",
+    "text": ["Amazon", "Alibaba", "Ozon", "Wildberries", "eBay", "Mercado Libre", "JD.com", "Shopify", "Etsy", "Rozetka"],
+    "image": "https://i.ytimg.com/vi/SB_Q4mVNvN8/maxresdefault.jpg",
+    "description": "Ozon и Wildberries расширяют свою деятельность в Узбекистане, инвестируя в логистику и доставку товаров."
+  },
+  {
+    "title": "Онлайн-банкинг и финтех",
+    "text": ["Uzum Bank", "Apelsin", "Click", "Payme", "Tinkoff", "Sberbank Online", "Revolut", "PayPal", "Wise", "Alipay"],
+    "image": "https://avatars.mds.yandex.net/i?id=f06f5368d9cc25fadf865bf24bab1257c2efc3a8-4464889-images-thumbs&n=13",
+    "description": "Click, Payme и Uzum Bank — одни из самых популярных финтех-сервисов в Узбекистане с миллионами пользователей."
+  },
+  {
+    "title": "ERP и автоматизация бизнеса",
+    "text": ["1C:Предприятие", "SAP", "Oracle ERP", "Microsoft Dynamics", "Odoo", "Bitrix24", "Zoho ERP", "NetSuite", "YCLIENTS", "Мегаплан"],
+    "image": "https://avatars.mds.yandex.net/i?id=06fb4e96fbd169a6b75ebc43dde60e1d7b8615ef-12520451-images-thumbs&n=13",
+    "description": "1С широко используется среди малого и среднего бизнеса в Узбекистане. SAP и Oracle применяются в крупных компаниях."
+  },
+  {
+    "title": "Электронное правительство и госуслуги",
+    "text": ["my.gov.uz", "Госуслуги", "E-gov (Казахстан)", "Diia (Украина)", "e-Estonia", "SingPass", "USA.gov", "DocFlow", "e-Soliq", "Электронные аукционы"],
+    "image": "https://avatars.mds.yandex.net/i?id=c9370f7c956686057ea09afbc110ff1b31a3785b-5869158-images-thumbs&n=13",
+    "description": "Через my.gov.uz доступны сотни государственных услуг. Также активно используются e-Soliq и электронные тендерные платформы."
+  },
+  {
+    "title": "Цифровой маркетинг и реклама",
+    "text": ["Google Ads", "Facebook Ads", "Instagram Ads", "TikTok Ads", "Yandex.Direct", "LinkedIn Ads", "Twitter Ads", "Programmatic", "SEO", "Email маркетинг"],
+    "image": "https://tychinskiy.ru/wp-content/uploads/2019/06/Blog-2019-7.jpg",
+    "description": "Google, Instagram и TikTok-реклама доминируют на узбекском рынке. SEO и email-маркетинг остаются эффективными и доступными инструментами."
+  },
+  {
+    "title": "Логистика и технологии доставки",
+    "text": ["AliExpress Logistics", "DHL", "FedEx", "Uber Freight", "Flexport", "ShipBob", "1C:Логистика", "SAP SCM", "Транспортные системы", "Yandex.Доставка"],
+    "image": "https://avatars.mds.yandex.net/i?id=7d824722a0fe961203917f458fba4a71298f5950-5234613-images-thumbs&n=13",
+    "description": "Логистика в Узбекистане активно развивается: внедряются автоматизированные решения как от международных, так и от местных компаний."
+  },
+  {
+    "title": "Облачные технологии и SaaS",
+    "text": ["Google Cloud", "AWS", "Microsoft Azure", "Yandex Cloud", "IBM Cloud", "Salesforce", "Dropbox Business", "Slack", "Zoom", "Notion"],
+    "image": "https://i.pinimg.com/originals/3f/da/92/3fda92e2caef1173d92636fd18037364.jpg?nii=t",
+    "description": "Облачные сервисы помогают компаниям в Узбекистане организовать удалённую работу, безопасное хранение данных и цифровое сотрудничество."
+  },
+  {
+    "title": "Криптовалюты и блокчейн",
+    "text": ["Bitcoin", "Ethereum", "Binance", "Coinbase", "Solana", "OpenSea", "Ripple", "Stellar", "Смарт-контракты", "DeFi"],
+    "image": "https://avatars.mds.yandex.net/i?id=00ba9b6532788bbc36cfa7e886e69d321ee540c8-5343286-images-thumbs&n=13",
+    "description": "Несмотря на строгие регуляции, интерес к блокчейн-проектам и DeFi в Узбекистане продолжает расти."
+  },
+  {
+    "title": "Фриланс и удалённая работа",
+    "text": ["Upwork", "Freelancehunt", "Fiverr", "Toptal", "WeWork", "Zoom", "Trello", "Asana", "Jira", "Google Workspace"],
+    "image": "https://avatars.mds.yandex.net/i?id=9472a71c22670c9eb8af113c617e44f137a3f183-7084983-images-thumbs&n=13",
+    "description": "Многие узбекистанцы зарабатывают через фриланс-платформы. Для удалённой работы активно используются Zoom, Trello, Asana."
+  },
+  {
+    "title": "Искусственный интеллект и Big Data",
+    "text": ["ChatGPT", "IBM Watson", "Google AI", "Yandex Zen", "AI Analytics", "Предиктивная аналитика", "Распознавание лиц", "Чат-боты", "Голосовые ассистенты", "AI трейдинг"],
+    "image": "https://avatars.mds.yandex.net/i?id=f55519371d9d48e9ff5adff15da38a870e60318a-10814639-images-thumbs&n=13",
+    "description": "AI активно внедряется в банках, маркетинге, медицине и промышленности. ChatGPT и локальные чат-боты автоматизируют клиентский сервис."
+  },
+  {
+    "title": "Онлайн-образование и EdTech",
+    "text": ["Coursera", "Udemy", "Stepik", "Khan Academy", "Duolingo", "Skillbox", "GeekBrains", "Udacity", "edX", "OpenAI Learn"],
+    "image": "https://avatars.mds.yandex.net/i?id=cc473e1bef8d045c231ce08e8d8a0ed7b6bc2d7c-3979407-images-thumbs&n=13",
+    "description": "Coursera, Stepik и Udemy популярны среди пользователей в Узбекистане. Duolingo полезен для изучения языков, Skillbox — для IT-специальностей."
+  },
+  {
+    "title": "Мессенджеры и средства связи",
+    "text": ["WhatsApp", "Telegram", "Viber", "Messenger", "WeChat", "Discord", "Skype", "Zoom", "Slack", "Microsoft Teams"],
+    "image": "https://avatars.mds.yandex.net/i?id=e251faa260d9f009b50d6d9b83940769b742b188-4907652-images-thumbs&n=13",
+    "description": "Telegram и WhatsApp — самые используемые мессенджеры в Узбекистане. Zoom и Teams популярны в бизнес-среде."
+  },
+  {
+    "title": "Онлайн-игры и гейминг",
+    "text": ["Steam", "Epic Games", "PlayStation Network", "Xbox Live", "Twitch", "Discord", "Roblox", "Fortnite", "PUBG", "Minecraft"],
+    "image": "https://avatars.mds.yandex.net/i?id=307833e7f34252487c5db93a80ab79d3_l-4033769-images-thumbs&n=13",
+    "description": "Среди молодёжи в Узбекистане особенно популярны игры на Steam, Fortnite и PUBG. Twitch и Discord — ключевые платформы для геймеров."
+  },
+  {
+    "title": "Социальные сети и контент",
+    "text": ["Facebook", "Instagram", "TikTok", "YouTube", "VK", "Odnoklassniki", "Pinterest", "Snapchat", "Reddit", "Quora"],
+    "image": "https://avatars.mds.yandex.net/i?id=bc167e58f8fe47e24d9f248400c2c892d249d418-11515342-images-thumbs&n=13",
+    "description": "Instagram и TikTok активно используются для продвижения товаров и услуг. YouTube остаётся основной платформой для видео-контента."
+  }
+]
